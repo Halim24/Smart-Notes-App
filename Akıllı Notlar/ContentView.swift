@@ -10,7 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+    ZStack {
+        Color(red: 254 / 255, green: 254 / 255, blue: 211 / 255).edgesIgnoringSafeArea(.all)
+            VStack {
+                Text("Hello, World!")
+            }
+    }
     }
 }
 
