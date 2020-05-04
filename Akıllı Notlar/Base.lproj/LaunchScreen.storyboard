@@ -15,8 +15,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hoş Geldiniz" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8d2-6u-dXj">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hoş Geldiniz" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8d2-6u-dXj">
                                 <rect key="frame" x="75" y="347" width="265" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -26,15 +27,6 @@
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="8d2-6u-dXj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="013-vm-9mx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8d2-6u-dXj" secondAttribute="trailing" constant="74" id="BY8-u5-dw6"/>
-                            <constraint firstItem="thG-J9-Ke2" firstAttribute="top" secondItem="8d2-6u-dXj" secondAttribute="bottom" constant="41" id="C1j-Jx-FeY"/>
-                            <constraint firstItem="8d2-6u-dXj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="GgG-hm-Vs8"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8d2-6u-dXj" secondAttribute="bottom" constant="484" id="Qse-gm-R6M"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8d2-6u-dXj" secondAttribute="bottom" constant="481" id="nsN-K3-i0d"/>
-                            <constraint firstItem="8d2-6u-dXj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="303" id="y9f-Cp-o4D"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
